@@ -3,6 +3,7 @@
 
 ---
 
+<h1 id="cloud-devops">Cloud DevOps</h1>
 <h1 id="introduction">Introduction</h1>
 <p>This repository breaks down the steps on how to deploy a project to amazon server. I have developed a REST API for trading which I would be deploying to AWS, the GitHub URL is: <a href="https://github.com/zohra1997/Trading-App">https://github.com/zohra1997/Trading-App</a><br>
 Trading app is an online stock trading simulation REST API which can be used to check stock market, create a user account, deposite and withdraw money, buy and sell stocks. This REST API can be utilized by front-end developers, mobile-app developers, and traders.<br>
