@@ -24,13 +24,7 @@ To dokcerize the applicatoin the following steps should be followed in order.</p
 (1)<code>IEX_TOKEN="your-token" dcoker run -e "PSQL_URL=jdbc://postresql://jrvs-psql:5432/jrvstrading" -e "PSQL_USER=psql-user" -e "PSQL_PASSWORD=psql-password" -e "IEX_PUB_TOKEN=${IEX_TOKEN}" --network trading-net -p 8080:8080 -t trading-app</code></li>
 </ol>
 <h1 id="cloud-architecture-diagram">Cloud Architecture Diagram</h1>
-<ol start="13">
-<li>trading app diagram</li>
-<li>use <a href="http://draw.io/">draw.io</a> and aws icons (it’s in the <a href="http://draw.io/">draw.io</a> library)</li>
-<li>include ec2, alb, auto scaling, target group, rds</li>
-<li>security groups</li>
-<li>label all important ports(e.g. ALB HTTP, ec2 tpc:5000, RDS tcp:5432)</li>
-</ol>
+<p><img src="https://lh3.googleusercontent.com/T7sqWjzw2XZs1SZ-bFWfF6A53hyoFdzQmH_dJTT1HKNgrLafLGvZOaQdmWIJP3Xi68XZoX2l8s8" alt="enter image description here"><img src="https://picasaweb.google.com/106388341762798004438/6721791064472506625#6721791070538037714" alt="" title="cloud architecture"></p>
 <h1 id="elastic-beanstalk-todo">Elastic Beanstalk (TODO)</h1>
 <h1 id="jenkins-cicd-pipeline-todo">Jenkins CI/CD pipeline (TODO)</h1>
 
