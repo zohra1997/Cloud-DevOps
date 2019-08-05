@@ -21,7 +21,7 @@ To dokcerize the applicatoin the following steps should be followed in order.</p
 <li>Docker jrvs-psql container:<br>
 (2) <code>dcoker run --rm --name jrvs-psql -e POSTGRES_PASSWORD=psql-password -e POSTGRES_DB=jrvstrading -e POSTGRES_USER=postgres-user --network trading-net -d -p 5432:5432 jrvs-psql</code></li>
 <li>Docker trading-app container:<br>
-(1)<code>IEX_TOKEN="your-token" dcoker run -e "PSQL_URL=jdbc://postresql://jrvs-psql:5432/jrvstrading" -e "PSQL_USER=psql-user" -e "PSQL_PASSWORD=psql-password" -e "IEX_PUB_TOKEN=${IEX_TOKEN} --network trading-net -p 8080:8080 -t trading-app</code></li>
+(1)<code>IEX_TOKEN="your-token" dcoker run -e "PSQL_URL=jdbc://postresql://jrvs-psql:5432/jrvstrading" -e "PSQL_USER=psql-user" -e "PSQL_PASSWORD=psql-password" -e "IEX_PUB_TOKEN=${IEX_TOKEN}" --network trading-net -p 8080:8080 -t trading-app</code></li>
 </ol>
 <h1 id="cloud-architecture-diagram">Cloud Architecture Diagram</h1>
 <ol start="13">
