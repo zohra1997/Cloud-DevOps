@@ -6,10 +6,7 @@
 <h1 id="cloud-devops">Cloud DevOps</h1>
 <h2 id="introduction">Introduction</h2>
 <p>This repository breaks down the steps on how to deploy a project to amazon server. I have developed a REST API for trading which I would be deploying to AWS, the GitHub URL is: <a href="https://github.com/zohra1997/Trading-App">https://github.com/zohra1997/Trading-App</a><br>
-Trading app is an online stock trading simulation REST API which can be used to check stock market, create a user account, deposite and withdraw money, buy and sell stocks. This REST API can be utilized by front-end developers, mobile-app developers, and traders.<br>
-It is a MicroService which is implememnted in Java with SpringBoot, PSQL database, IEX market Data and Http pooling connection manager.</p>
-<p>What project you will deploy and project GitHub URL (your implementation is preferred)<br>
-Describe your project at a high level (microserver, psql, java)</p>
+Trading app is an online stock trading simulation REST API which can be used to check stock market, create a user account, deposite and withdraw money, buy and sell stocks. This REST API can be utilized by front-end developers, mobile-app developers, and traders.  It is a MicroService which is implememnted in Java with SpringBoot, PSQL database, IEX market Data and Http pooling connection manager.</p>
 <h1 id="docker-architecture-diagram">Docker Architecture Diagram</h1>
 <p>Following is the docker architecture of the trading application.<br>
 <img src="https://lh3.googleusercontent.com/FeWLM0Skp6pwbhI9RhRxhKLfZMyg9Wrg-ukrqLGgJoJrNq8-6kGzEsr758xn4g01wtuLc72v2Gw" alt="enter image description here"><br>
