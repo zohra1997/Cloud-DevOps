@@ -1,7 +1,3 @@
----
-
-
----
 
 <h1 id="cloud-devops">Cloud DevOps</h1>
 <h2 id="introduction">Introduction</h2>
