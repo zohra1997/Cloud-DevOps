@@ -1,3 +1,7 @@
+---
+
+
+---
 
 <h1 id="cloud-devops">Cloud DevOps</h1>
 <h2 id="introduction">Introduction</h2>
@@ -21,6 +25,11 @@ To dokcerize the applicatoin the following steps should be followed in order.</p
 </ol>
 <h1 id="cloud-architecture-diagram">Cloud Architecture Diagram</h1>
 <p><img src="https://lh3.googleusercontent.com/T7sqWjzw2XZs1SZ-bFWfF6A53hyoFdzQmH_dJTT1HKNgrLafLGvZOaQdmWIJP3Xi68XZoX2l8s8" alt="enter image description here"><img src="https://picasaweb.google.com/106388341762798004438/6721791064472506625#6721791070538037714" alt="" title="cloud architecture"></p>
-<h1 id="elastic-beanstalk-todo">Elastic Beanstalk (TODO)</h1>
-<h1 id="jenkins-cicd-pipeline-todo">Jenkins CI/CD pipeline (TODO)</h1>
+<h1 id="elastic-beanstalk">Elastic Beanstalk</h1>
+<p>Elsatic Beanstalk, can be used to quickly deploy and manage application in AWS quickly without knowing more about the infrustructure of the needed services. EB automatically handles load balancing, autoscaling and capacity provisioning. The architecture os eb is show below.<br>
+<img src="https://picasaweb.google.com/106388341762798004438/6725457493031395569#6725457493808850258" alt=""><br>
+<img src="https://lh3.googleusercontent.com/2gXh3ZYoOKm9X0nKEUI0adsKFpLP2wxnD5X7tB3TU-K8mWDFNidJGGikgFEeipXvVfGt6jLdhAs" alt="enter image description here"></p>
+<h1 id="jenkins-cicd-pipeline">Jenkins CI/CD pipeline</h1>
+<p>Jenkins pipeline with elastic beanstalk archtiecture.<br>
+<img src="https://lh3.googleusercontent.com/5oN-FcCnpVSqMWvuJDzQasZ0MoOcwhI-DFxeZnJWs8L2QLFBi1y3kIKCFTOrsDeI_XiJRzyNp8M" alt="enter image description here"></p>
 
